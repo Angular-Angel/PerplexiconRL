@@ -1,0 +1,23 @@
+[
+    {
+        "Name" : "Stone Wall",
+        "symbol" : "#",
+        "color" : [255, 255, 255],
+        "Stats" : [],
+        "Material" : "Granite"
+    },
+    {
+        "Name" : "Stone Floor",
+        "symbol" : ".",
+        "color" : [255, 255, 255],
+        "Stats" : [["Passable"], ["Transparent"]],
+        "Material" : "Granite"
+    },
+    {
+        "Name" : "Stone Stairs",
+        "symbol" : "=",
+        "color" : [255, 255, 255],
+        "Stats" : [["Passable"], ["Transparent"]],
+        "Material" : "Granite"
+    }
+]

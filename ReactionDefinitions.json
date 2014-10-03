@@ -1,0 +1,14 @@
+[
+	{
+		"Name" : "Fire",
+		"Adjective" : "Burning",
+		"Verb" : "Burn",
+		"Script" : "FireScript.groovy"
+	},
+        {
+                "Name" : "Damage",
+		"Adjective" : "Damaged",
+		"Verb" : "Damage",
+		"Script" : "DamageScript.groovy"
+        }
+]

@@ -1,0 +1,29 @@
+Sizes are measured in cm, densities in g/cm^3, Strengths are mor or less made up, at least for the moment
+
+Melee Damage Calculations:
+
+Raw Damage = Force * Mass
+
+Blunt Damage = Raw Damage / Contact Area, usual range is 0 - 1000
+
+Cutting Damage = Raw Damage * Sharpness, usual range is 0 - 15000
+
+Piercing Damage = (Raw Damage * Sharpness) / Contact Area, usual range is 0 - 100000
+
+Peirce Rating = min(Penetration, Raw Damage) / Contact Area
+
+Melee Result Calculations
+
+Item Resistances  = Material Resistances * Thickness
+
+Resistance List:
+
+Impact Resistance
+
+Fracture Resistance
+
+Cutting resistance
+
+Piercing Resistance
+
+if (Impact Yield < Thrusting Damage)

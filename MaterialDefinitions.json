@@ -1,0 +1,123 @@
+[
+	{
+		"name" : "Steel",
+		"symbol" : "I",
+		"color" : [192, 192, 192],
+                "script" : "MetalDamageScript.groovy",
+		"stats" : [["Density", 7.85], ["Sharpness", 1.65], ["Hit Point Density", 10], 
+                           ["Impact Resistance", 1000], ["Fracture Resistance", 1100], 
+                           ["Cutting Resistance", 15000], ["Piercing Resistance", 100000], ["Ease", 4]],
+		"ease" : [["Geometric", 10], ["SimpleBlades", 10], ["ComplexBlades", 8], ["Armor", 9]]
+	},
+	{
+		"name" : "Iron",
+		"symbol" : "i",
+		"color" : [128, 128, 128],
+                "script" : "MetalDamageScript.groovy",
+		"stats" : [["Density", 7.8], ["Sharpness", 1.55], ["Hit Point Density", 9], 
+                           ["Impact Resistance", 880], ["Fracture Resistance", 740], 
+                           ["Cutting Resistance", 12900], ["Piercing Resistance", 86000], ["Ease", 6]],
+		"ease" : [["Geometric", 10], ["SimpleBlades", 10], ["ComplexBlades", 8], ["Armor", 9]]
+	},
+	{
+		"name" : "Gold",
+		"symbol" : "g",
+		"color" : [255, 255, 51],
+                "script" : "MetalDamageScript.groovy",
+		"stats" : [["Density", 19.8], ["Sharpness", 0.65], ["Hit Point Density", 6], 
+                           ["Impact Resistance", 640], ["Fracture Resistance", 990], 
+                           ["Cutting Resistance", 10100], ["Piercing Resistance", 72000], ["Ease", 8]],
+		"ease" : [["Geometric", 10], ["SimpleBlades", 6], ["ComplexBlades", 4], ["Armor", 7]]
+	},
+        {
+                "name" : "Silver",
+		"symbol" : "s",
+		"color" : [48, 48, 48],
+                "script" : "MetalDamageScript.groovy",
+		"stats" : [["Density", 10.4], ["Sharpness", 0.85], ["Hit Point Density", 7], 
+                           ["Impact Resistance", 790], ["Fracture Resistance", 820], 
+                           ["Cutting Resistance", 11200], ["Piercing Resistance", 84000], ["Ease", 8]],
+		"ease" : [["Geometric", 10], ["SimpleBlades", 6], ["ComplexBlades", 4], ["Armor", 7]]
+        },
+        {
+                "name" : "Copper",
+		"symbol" : "g",
+		"color" : [204, 144, 14],
+                "script" : "MetalDamageScript.groovy",
+		"stats" : [["Density", 8.9], ["Sharpness", 0.92], ["Hit Point Density", 8], 
+                           ["Impact Resistance", 845], ["Fracture Resistance", 930], 
+                           ["Cutting Resistance", 13030], ["Piercing Resistance", 92000], ["Ease", 8]],
+		"ease" : [["Geometric", 10], ["SimpleBlades", 6], ["ComplexBlades", 4], ["Armor", 7]]
+        },
+	{
+		"name" : "Fat",
+		"symbol" : "*",
+		"color" : [255, 68, 51],
+                "script" : "FleshDamageScript.groovy",
+		"stats" : [["Density", 0.9], ["Sharpness", 0.35], ["Hit Point Density", 1.5], 
+                           ["Impact Resistance", 180], ["Fracture Resistance", 893], 
+                           ["Cutting Resistance", 1050], ["Piercing Resistance", 2300], ["Ease", 8]],
+		"ease" : [["Flesh", 8]]
+	},
+        {
+                "name" : "Skin",
+		"symbol" : "*",
+		"color" : [255, 51, 51],
+                "script" : "FleshDamageScript.groovy",
+		"stats" : [["Density", 1], ["Sharpness", 0.39], ["Hit Point Density", 1.7], 
+                           ["Impact Resistance", 270], ["Fracture Resistance", 876], 
+                           ["Cutting Resistance", 1180], ["Piercing Resistance", 3200], ["Ease", 8]],
+		"ease" : [["Flesh", 8]]
+        },
+        {
+                "name" : "Muscle",
+		"symbol" : "*",
+		"color" : [255, 40, 40],
+                "script" : "FleshDamageScript.groovy",
+		"stats" : [["Density", 1.06], ["Sharpness", 0.42], ["Hit Point Density", 1.9], 
+                           ["Impact Resistance", 530], ["Fracture Resistance", 918], 
+                           ["Cutting Resistance", 1350], ["Piercing Resistance", 4800], ["Ease", 7]],
+		"ease" : [["Flesh", 8]]
+        },
+        {
+                "name" : "Sinew",
+		"symbol" : "*",
+		"color" : [255, 40, 40],
+                "script" : "FleshDamageScript.groovy",
+		"stats" : [["Density", 1], ["Sharpness", 0.43], ["Hit Point Density", 1.7], 
+                           ["Impact Resistance", 580], ["Fracture Resistance", 700], 
+                           ["Cutting Resistance", 1430], ["Piercing Resistance", 5000], ["Ease", 7]],
+		"ease" : [["Flesh", 8]]
+        },
+        {
+                "name" : "Brain",
+		"symbol" : "*",
+		"color" : [255, 59, 59],
+                "script" : "FleshDamageScript.groovy",
+		"stats" : [["Density", 0.5], ["Sharpness", 0.32], ["Hit Point Density", 0.9], 
+                           ["Impact Resistance", 210], ["Fracture Resistance", 600], 
+                           ["Cutting Resistance", 740], ["Piercing Resistance", 1000], ["Ease", 6]],
+		"ease" : [["Flesh", 8]]
+            
+        },
+	{
+		"name" : "Bone",
+		"symbol" : "B",
+		"color" : [255, 255, 255],
+                "script" : "BrittleDamageScript.groovy",
+		"stats" : [["Density", 0.5], ["Sharpness", 1.05], ["Hit Point Density", 2], 
+                           ["Impact Resistance", 890], ["Fracture Resistance", 480], 
+                           ["Cutting Resistance", 5700], ["Piercing Resistance", 14000], ["Ease", 7]],
+		"ease" : [["Bone", 8]]
+	},
+        {
+		"name" : "Granite",
+		"symbol" : "G",
+		"color" : [255, 255, 255],
+                "script" : "BrittleDamageScript.groovy",
+		"stats" : [["Density", 0.5], ["Sharpness", 1.05], ["Hit Point Density", 2], 
+                           ["Impact Resistance", 890], ["Fracture Resistance", 480], 
+                           ["Cutting Resistance", 5700], ["Piercing Resistance", 14000], ["Ease", 7]],
+		"ease" : [["Bone", 8]]
+	}
+]

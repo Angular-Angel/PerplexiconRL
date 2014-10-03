@@ -1,0 +1,81 @@
+[
+	{
+		"singular" : "Longsword",
+		"plural" : "Longswords",
+		"adjective" : "Longsword",
+		"symbol" : "\\",
+		"stats" : [["Volume", 325], ["Thickness", 3], ["Size", 135], ["Mass", [ "Volume", "Density", "*" ]], 
+                           ["Hit Points", ["Hit Point Density", "Volume", "*"]], ["Impact Point", ["Thickness", "Impact Resistance", "*"]], ["Fracture Point", ["Thickness", "Fracture Resistance", "*"]], 
+                           ["Cutting Point", ["Thickness", "Cutting Resistance", "*"]], ["Piercing Point", ["Thickness", "Piercing Resistance", "*"]]],
+		"attacks" : [["Slash", [["Reach", 120], ["Mechanical Advantage", 1.5], ["Effective Mass", ["Mass", 0.15, "*"]], ["Contact Area", 30], ["Penetration", 55], ["Type", 1]]], 
+                              ["Stab", [["Reach", 120], ["Mechanical Advantage", 1], ["Effective Mass", ["Mass", 1, "*"]], ["Contact Area", 2], ["Penetration", 110], ["Type", 2]]], 
+			     ["Smack", [["Reach", 120], ["Mechanical Advantage", 1.5], ["Effective Mass", ["Mass", 0.15, "*"]], ["Contact Area", 80], ["Penetration", 0], ["Type", 0]]]]
+	},
+	{
+		"singular" : "Bar",
+		"plural" : "Bars",
+		"adjective" : "Bar",
+		"symbol" : "-",
+		"stats" : [["Volume", 600], ["Thickness", 8], ["Size", 20], ["Mass", [ "Volume", "Density", "*" ]], 
+                           ["Hit Points", ["Hit Point Density", "Volume", "*"]], ["Impact Point", ["Thickness", "Impact Resistance", "*"]], ["Fracture Point", ["Thickness", "Fracture Resistance", "*"]], 
+                           ["Cutting Point", ["Thickness", "Cutting Resistance", "*"]], ["Piercing Point", ["Thickness", "Piercing Resistance", "*"]]],
+		"attacks" : [["Bludgeon", [["Reach", 10], ["Mechanical Advantage", 1.25], ["Effective Mass", ["Mass", 0.5, "*"]], ["Contact Area", 20], ["Penetration", 5], ["Type", 0]]], 
+                             ["Poke", [["Reach", 10], ["Mechanical Advantage", 1], ["Effective Mass", ["Mass", 1, "*"]], ["Contact Area", 12], ["Penetration", 10], ["Type", 3]]]]
+	},
+	{
+		"singular" : "Heart",
+		"plural" : "Hearts",
+		"adjective" : "Heart",
+		"defmat" : "Muscle",
+		"symbol" : "*",
+		"stats" : [["Volume", 792], ["Thickness", 7], ["Size", 11], ["Mass", [ "Volume", "Density", "*" ]], 
+                           ["Hit Points", ["Hit Point Density", "Volume", "*"]], ["Impact Point", ["Thickness", "Impact Resistance", "*"]], ["Fracture Point", ["Thickness", "Fracture Resistance", "*"]], 
+                           ["Cutting Point", ["Thickness", "Cutting Resistance", "*"]], ["Piercing Point", ["Thickness", "Piercing Resistance", "*"]]],
+		"attacks" : []
+	},
+        {
+                "singular" : "Brain",
+		"plural" : "Brains",
+		"adjective" : "Brain",
+		"defmat" : "Brain",
+		"symbol" : "*",
+		"stats" : [["Volume", 4352], ["Thickness", 16], ["Size", 17], ["Mass", [ "Volume", "Density", "*" ]], 
+                           ["Hit Points", ["Hit Point Density", "Volume", "*"]], ["Impact Point", ["Thickness", "Impact Resistance", "*"]], ["Fracture Point", ["Thickness", "Fracture Resistance", "*"]], 
+                           ["Cutting Point", ["Thickness", "Cutting Resistance", "*"]], ["Piercing Point", ["Thickness", "Piercing Resistance", "*"]]],
+		"attacks" : []
+        },
+	{
+		"singular" : "Skull",
+		"plural" : "Skulls",
+		"adjective" : "Skull",
+		"defmat" : "Bone",
+		"symbol" : "@",
+		"stats" : [["Thickness", 2], ["Spatial Volume", 6156], ["Volume", 756], ["Size", 19], ["Mass", [ "Volume", "Density", "*" ]], 
+                           ["Hit Points", ["Hit Point Density", "Volume", "*"]], ["Impact Point", ["Thickness", "Impact Resistance", "*"]], ["Fracture Point", ["Thickness", "Fracture Resistance", "*"]], 
+                           ["Cutting Point", ["Thickness", "Cutting Resistance", "*"]], ["Piercing Point", ["Thickness", "Piercing Resistance", "*"]]],
+		"attacks" : [["Smack", [["Reach", 16], ["Mechanical Advantage", 1.15], ["Effective Mass", ["Mass", 0.7, "*"]], ["Contact Area", 0.5], ["Penetration", 5], ["Type", 0]]]]
+	},
+	{
+		"singular" : "Hand",
+		"plural" : "Hands",
+		"adjective" : "Hand",
+		"defmat" : "Muscle",
+		"symbol" : "^",
+		"stats" : [["Volume", 504], ["Thickness", 2], ["Size", 9], ["Mass", [ "Volume", "Density", "*" ]], 
+                           ["Hit Points", ["Hit Point Density", "Volume", "*"]], ["Impact Point", ["Thickness", "Impact Resistance", "*"]], ["Fracture Point", ["Thickness", "Fracture Resistance", "*"]], 
+                           ["Cutting Point", ["Thickness", "Cutting Resistance", "*"]], ["Piercing Point", ["Thickness", "Piercing Resistance", "*"]]],
+		"attacks" : [["Punch", [["Reach", 9], ["Mechanical Advantage", 1], ["Effective Mass", ["Mass", 1.8, "*"]], ["Contact Area", 15], ["Penetration", 4], ["Type", 3]]]]
+	},
+        {
+		"singular" : "Wand",
+		"plural" : "Wands",
+		"adjective" : "Wand",
+		"symbol" : "/",
+                "script" : "WandScript.groovy",
+                "stats" : [["Volume", 98], ["Thickness", 1], ["Size", 9], ["Mass", [ "Volume", "Density", "*" ]], 
+                           ["Hit Points", ["Hit Point Density", "Volume", "*"]], ["Impact Point", ["Thickness", "Impact Resistance", "*"]], ["Fracture Point", ["Thickness", "Fracture Resistance", "*"]], 
+                           ["Cutting Point", ["Thickness", "Cutting Resistance", "*"]], ["Piercing Point", ["Thickness", "Piercing Resistance", "*"]]],
+		"attacks" : []
+                
+        }
+]
