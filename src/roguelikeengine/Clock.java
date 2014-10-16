@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package perplexicon;
+package roguelikeengine;
 
 import roguelikeengine.largeobjects.Actor;
 import roguelikeengine.controller.PlayerWantsToQuitException;

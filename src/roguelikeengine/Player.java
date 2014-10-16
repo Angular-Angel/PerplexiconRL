@@ -1,4 +1,4 @@
-package perplexicon;
+package roguelikeengine;
 
 import roguelikeengine.display.Rotation;
 import roguelikeengine.display.RoguelikeInterface;
@@ -18,11 +18,8 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import roguelikeengine.area.*;
-import roguelikeengine.controller.*;
-import roguelikeengine.item.*;
+import perplexicon.Perplexicon;
 import roguelikeengine.largeobjects.*;
-import roguelikeengine.stat.*;
 
 /**
  * This class is for the object that manages the interface between the player 

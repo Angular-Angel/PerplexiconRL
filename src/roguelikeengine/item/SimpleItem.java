@@ -4,7 +4,7 @@ import roguelikeengine.display.RoguelikeInterface;
 import roguelikeengine.display.DisplayChar;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import perplexicon.Registry;
+import roguelikeengine.Registry;
 import roguelikeengine.area.AreaLocation;
 import roguelikeengine.area.Location;
 import roguelikeengine.stat.Stat;

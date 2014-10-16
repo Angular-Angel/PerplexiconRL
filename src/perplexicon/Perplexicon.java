@@ -1,38 +1,35 @@
 package perplexicon;
 
-import roguelikeengine.display.Rotation;
-import roguelikeengine.display.RoguelikeInterface;
-import roguelikeengine.display.DisplayChar;
-import roguelikeengine.controller.DijkstraMap;
-import roguelikeengine.controller.EnemyAI;
-import roguelikeengine.item.SimpleItem;
-import roguelikeengine.item.Item;
-import roguelikeengine.item.AttackScript;
-import roguelikeengine.item.ItemOnGround;
-import roguelikeengine.largeobjects.BodyDefinition;
-import roguelikeengine.largeobjects.Attack;
-import roguelikeengine.area.LocalArea;
-import roguelikeengine.area.TerrainDefinition;
-import roguelikeengine.area.AreaLocation;
-import perplexicon.Clock;
 import java.awt.*;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Random;
-import roguelikeengine.area.*;
-import roguelikeengine.controller.*;
-import roguelikeengine.item.*;
+import roguelikeengine.Clock;
+import roguelikeengine.Game;
+import roguelikeengine.Player;
+import roguelikeengine.Registry;
+import roguelikeengine.area.AreaLocation;
+import roguelikeengine.area.LocalArea;
+import roguelikeengine.area.TerrainDefinition;
+import roguelikeengine.controller.DijkstraMap;
+import roguelikeengine.controller.EnemyAI;
+import roguelikeengine.display.DisplayChar;
+import roguelikeengine.display.RoguelikeInterface;
+import roguelikeengine.display.Rotation;
+import roguelikeengine.item.AttackScript;
+import roguelikeengine.item.Item;
+import roguelikeengine.item.ItemOnGround;
+import roguelikeengine.item.SimpleItem;
 import roguelikeengine.largeobjects.*;
+import roguelikeengine.largeobjects.Attack;
+import roguelikeengine.largeobjects.BodyDefinition;
 import roguelikeengine.stat.Trait;
 
 /**
  *
  * @author greg
  */
-public class Perplexicon implements Game{
-    public RoguelikeInterface display;
-    public Registry registry;
-    public Random random;
+public class Perplexicon extends Game {
     
     private Perplexicon() {
         display = new RoguelikeInterface("Perplexicon Demo", 193, 47, 
